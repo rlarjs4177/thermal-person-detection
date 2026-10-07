@@ -1,0 +1,38 @@
+# Local environments and caches
+.venv/
+.ultralytics/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Datasets and evaluation images
+data/
+non/
+
+# Training, evaluation, and generated artifacts
+runs/
+tmp/
+checkpoints/
+weights/
+**/outputs/
+**/generated/
+profile_details.json
+profile_results.csv
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Nested repository metadata
+third_party/RT-DETR/.git/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
