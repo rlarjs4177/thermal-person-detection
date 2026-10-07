@@ -1,0 +1,11 @@
+geon_thermal_yolo
+  ├─ YOLOv8 baseline / thermal
+  └─ YOLO11 baseline / thermal
+
+geon_thermal_rfdetr
+  ├─ RF-DETR baseline
+  └─ RF-DETR thermal
+
+geon_thermal_rtdetr
+  ├─ RT-DETR baseline
+  └─ RT-DETR thermal
